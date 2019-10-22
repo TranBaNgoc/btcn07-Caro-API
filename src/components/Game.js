@@ -432,13 +432,14 @@ class Game extends React.Component {
                 style={{ border: 'none', background: 'transparent' }}
               >
                 <img
+                  
                   src={sourceImgSort}
                   alt="Sắp xếp danh sách"
-                  style={{ width: '40px', height: '40px', float: 'right' }}
+                  style={{ width: '40px', height: '40px', float: 'right' ,display:'none'}}
                 />
               </button>
 
-              <div style={{ height: '88vh', overflow: 'scroll' }}>
+              <div style={{ height: '88vh', overflow: 'scroll', display:'none' }}>
                 <ul style={{ marginTop: '0px' }}>{moves}</ul>
               </div>
             </div>
